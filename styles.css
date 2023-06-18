@@ -9,6 +9,15 @@ html {
     text-align: center;
 }
 
+@media (max-width: 650px){
+    .pattern {
+        font-size: 200px;
+    }
+    #score {
+        font-size: 45px;
+    }
+}
+
 .box {
     text-align: center;
 }
