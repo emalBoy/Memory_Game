@@ -1,0 +1,38 @@
+html {
+    user-select: none;
+    background-color: rgb(8, 8, 69);
+}
+
+.pattern {
+    color: white;
+    font-size: 500px;
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+}
+
+#answer {
+    box-shadow: 0px 0px 20px;
+    background-color: rgb(21, 21, 174);
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    width: 700px;
+    font-size: 80px;
+    letter-spacing: 20px;
+    text-align: center;
+    transition: 300ms;
+}
+
+#answer:focus {
+    background-color: rgb(91, 29, 126);
+}
+
+#score {
+    color: aqua;
+    font-size: 75px;
+    background-color: transparent;
+    font-family: monospace;
+}
